@@ -27,3 +27,18 @@ VALUES ("Cardigan", "Clothing", 25.00, 9),
         ("GI Joe", "Toys", 11.63, 7);
         
 SELECT * FROM saleItems; 
+
+CREATE TABLE departments (
+    department_id INT NOT NULL AUTO_INCREMENT,
+    department_name VARCHAR(50) NOT NULL,
+    over_head_costs DECIMAL (10,2) NOT NULL DEFAULT 0,
+    PRIMARY KEY (department_id)
+);       
+
+INSERT INTO departments (department_name, over_head_costs)
+VALUES ("Clothing", 69000),
+        ("Electronics", 81000),
+        ("Home", 92000),
+        ("Books", 28000);
+
+SELECT * FROM departments;
