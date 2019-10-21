@@ -18,11 +18,42 @@ var connection = mysql.createConnection({
 connection.connect(function (err) {
   if (err) throw err;
   console.log("connected as id " + connection.threadId + "\n");
-  hereGoesNothing();
+  worldsBestBoss();
 });
 
-// This is the function that displays the table
 function worldsBestBoss() {
+    inquirer
+      .prompt({
+        name: "well_hello",
+        type: "list",
+        message: "What are we doing today?",
+        choices: ["View Product Sales by Department", 
+                    "Create New Department"]
+      })
+      .then(function(answer) {
+    // Specifics functions are called based on what the manager chooses 
+        switch (answer.Welcome) {
+            case "View Product Sales by Department":
+                saleDep();
+                break;
+            
+            case "Create New Department":
+                gimmeTheNewNew()
+                break;
+        
+            default:
+                connection.end()
+                break;
+        }
+      });
+  };
+
+function saleDep() {
+
+};
+
+// This is the function that displays the table
+function gimmeTheData() {
     connection.query("SELECT * FROM saleItems",
     function (err, res) {
       if (err) {

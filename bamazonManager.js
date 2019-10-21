@@ -60,7 +60,7 @@ function wellHelloThere() {
 
 // If the managaer chooses to view items for sale the table displays all items
 function forSale() {
-    connection.query("SELECT * FROM saleItems",
+    connection.query("SELECT * FROM products",
     function (err, res) {
       if (err) {
         console.log(err)
@@ -72,7 +72,7 @@ function forSale() {
 
 //If the managaer chooses to view low inventory the table displays items with less than 5 in stock
 function howLowCanYouGo() {
-    connection.query("SELECT * FROM saleItems WHERE stock_quantity < 5",
+    connection.query("SELECT * FROM products WHERE stock_quantity < 5",
     function (err, res) {
       if (err) {
         console.log(err)
@@ -97,7 +97,7 @@ function gimmeMore(){
         filter: Number
       }])
         .then(function (answer) {
-                connection.query("UPDATE saleItems SET stock_quantity = stock_quantity + ? WHERE item_id = ? ",
+                connection.query("UPDATE products SET stock_quantity = stock_quantity + ? WHERE item_id = ? ",
                   [answer.stock_quantity, answer.item_id],
                   function (err, res) {
                     if (err) {
@@ -150,7 +150,7 @@ function newIsBetter() {
     .then(function(answer) {
       // when finished prompting, insert a new item into the db with that info
       connection.query(
-        "INSERT INTO saleItems SET ?",
+        "INSERT INTO products SET ?",
         {
           product_name: answer.product_name,
           department_name: answer.department_name,
@@ -169,11 +169,12 @@ function newIsBetter() {
 
 // This is the function that displays the table
 function showMeTheTable() {
-    connection.query("SELECT * FROM saleItems",
+    connection.query("SELECT * FROM products",
     function (err, res) {
       if (err) {
         console.log(err)
       };
+      console.log("\n")
       console.table(res);
     })
 };

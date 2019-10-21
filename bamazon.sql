@@ -4,16 +4,17 @@ CREATE DATABASE bamazonCustomer;
 
 USE bamazonCustomer;
 
-CREATE TABLE saleItems (
+CREATE TABLE products (
   item_id INT NOT NULL AUTO_INCREMENT,
   product_name  VARCHAR(50) NOT NULL,
   department_name VARCHAR (50) NOT NULL,
   price DECIMAL (10,2) NOT NULL DEFAULT 0,
   stock_quantity integer default 0,
+  product_sales DECIMAL (10,2) NOT NULL DEFAULT 0,
   PRIMARY KEY (item_id)
 );
 
-INSERT INTO saleItems (product_name, department_name, price, stock_quantity)
+INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Cardigan", "Clothing", 25.00, 9),
         ("Jeans", "Clothing", 48.96, 10),
         ("Scarf", "Clothing", 12.65, 5),
@@ -26,7 +27,7 @@ VALUES ("Cardigan", "Clothing", 25.00, 9),
         ("Barbie", "Toys", 15.45, 4),
         ("GI Joe", "Toys", 11.63, 7);
         
-SELECT * FROM saleItems; 
+SELECT * FROM products; 
 
 CREATE TABLE departments (
     department_id INT NOT NULL AUTO_INCREMENT,
