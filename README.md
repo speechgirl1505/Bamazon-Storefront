@@ -1,4 +1,4 @@
-# Bamazon-Command-line-storefront
+# Bamazon-Storefront
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
@@ -40,6 +40,7 @@
 - [Usage](#usage)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -103,7 +104,7 @@ Something goes here:
 
 ## Contact
 Role Lead Developer for Bamazon Kala Elam
-Project Link: [https://github.com/speechgirl1505/Bamazon-Command-line-storefront](https://github.com/speechgirl1505/Bamazon-Command-line-storefront)
+Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Command-line-storefront)
 Special Thanks to - ?????
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
