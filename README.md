@@ -18,19 +18,20 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+
 <!-- PROJECT LOGO -->
+
+
 <br />
 <p align="center">
-  <h3 align="center">Bamazon Storefront</h3>
+  <h3 alig="center">Bamazon Storefront</h3>
     <a href="https://github.com/speechgirl1505/Bamazon-Storefront"><strong>Documentation and Repo Link</strong></a>
     <br />
   </p>
 </p>
+
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 - [About the Project](#about-the-project)
     - [Built With](#built-with)
@@ -54,8 +55,8 @@ This app will let a user, using Node.js and MySQL, to shop from a mock Amazon st
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 ### Installation
-1. Clone the repo to your 
-    - git clone 
+1. Clone the repo 
+    - git clone https://github.com/speechgirl1505/Bamazon-Storefront.git
 
 2. Install NPM packages
     - npm install mysql
@@ -63,8 +64,13 @@ To get a local copy up and running follow these simple steps.
     - npm install dotenv
 
 3. Create .env to hide password for MySQL
-   
-   
+    -# mysqlpassword
+    mysqlpassword=Put your password here
+
+4. Create a .gitignore file and put x information in there
+    - node_modules
+    - .env
+
 ### Screenshots
 
 #### `Customer`
