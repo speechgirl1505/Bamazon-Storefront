@@ -19,17 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<!-- PROJECT LOGO -->
-
-
-<br />
-<p align="center">
-  <h3 alig="center">Bamazon Storefront</h3>
-    <a href="https://github.com/speechgirl1505/Bamazon-Storefront"><strong>Documentation and Repo Link</strong></a>
-    <br />
-  </p>
-</p>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
@@ -64,7 +53,7 @@ To get a local copy up and running follow these simple steps.
     - npm install dotenv
 
 3. Create .env to hide password for MySQL
-    -# mysqlpassword
+    -- # mysqlpassword
     mysqlpassword=Put your password here
 
 4. Create a .gitignore file and put x information in there
