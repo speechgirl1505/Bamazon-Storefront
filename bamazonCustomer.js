@@ -48,6 +48,10 @@ function order() {
         filter: Number
     }])
         .then(function (answer) {
+            if (isNaN(answer.item_id) || isNaN(answer.stock_quantity)){
+                console.log("Apparently you dont know what a number is try again please!")
+                order();
+            } else {
             connection.query("SELECT stock_quantity FROM products WHERE item_id = ? ",
                 [answer.item_id],
                 function (err, res) {
@@ -69,6 +73,7 @@ function order() {
                             })
                     };
                 });
+            }
         })
 };
 

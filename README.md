@@ -26,7 +26,7 @@
 <br />
 <p align="center">
   <h3 align="center">Bamazon Storefront</h3>
-    <a href="https://github.com/speechgirl1505/Bamazon-Command-line-storefront"><strong>Documentation and Repo Link</strong></a>
+    <a href="https://github.com/speechgirl1505/Bamazon-Storefront"><strong>Documentation and Repo Link</strong></a>
     <br />
   </p>
 </p>
@@ -34,11 +34,8 @@
 ## Table of Contents
 - [About the Project](#about-the-project)
     - [Built With](#built-with)
-- [Organization](#Organization)
-    - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
     - [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
@@ -52,59 +49,65 @@ This app will let a user, using Node.js and MySQL, to shop from a mock Amazon st
 - [Node Package- Inquirer](https://www.npmjs.com/package/inquirer)
 - [Node Package- MySQL](https://www.npmjs.com/package/mysql)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
-<!-- Organization -->
-## Organization
 
-The functions themselves are created in the bottom half of the liri.js file.
 <!-- GETTING STARTED -->
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 ### Installation
-1. 
+1. Clone the repo to your 
+    - git clone 
+
 2. Install NPM packages
-```sh
-npm install
-```
-3. 
+    - npm install mysql
+    - npm install inquirer
+    - npm install dotenv
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
+3. Create .env to hide password for MySQL
+   
+   
 ### Screenshots
 
 #### `Customer`
-Something goes here:
-- .
-- .
-- .
-- 
+
+Customer Functions:
+- What is the Id of the item you would you like to purchase:
+
+- How many would you like to buy:
 
 <img src=""/>
 
 #### `Manager`
 
-Something goes here:
-- .
-- .
-- .
+Manager Functions:
+- What are we doing today boss:
+
+    - View Products for Sale:
+        
+    - View Low Inventory: 
+    
+    - Add to Inventory:
+        - What is the Id of the item you would you like to restock:
+        - How many would you like to add:
+
+    - Add New Products:
+        - What is the item you would like to add
+        - Into what category will the new item to be placed
+        - How much does this item cost
+        - How many of this item would you like to stock
 
 <img src=""/>
 
 #### `Supervisor`
 
-Something goes here:
-- .
-- .
-- .
-- 
+To Be Displayed later when I figure it out:
 
-<img src=""/>
-
-<!-- CONTACT -->
-
-## Contact
+## Who's Who of the App
 Role Lead Developer for Bamazon Kala Elam
-Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Command-line-storefront)
-Special Thanks to - ?????
+Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)
+
+## Acknowledgements
+Tutor and TA's help 
+Some code was borrowed from class activties
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
