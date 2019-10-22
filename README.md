@@ -42,7 +42,8 @@ This app will let a user, using Node.js and MySQL, to shop from a mock Amazon st
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps:
+
 ### Installation
 1. Clone the repo 
     - git clone https://github.com/speechgirl1505/Bamazon-Storefront.git
@@ -53,7 +54,7 @@ To get a local copy up and running follow these simple steps.
     - npm install dotenv
 
 3. Create .env to hide password for MySQL
-    -- # mysqlpassword
+    - #mysqlpassword
     mysqlpassword=Put your password here
 
 4. Create a .gitignore file and put x information in there
@@ -97,12 +98,12 @@ Manager Functions:
 To Be Displayed later when I figure it out:
 
 ## Who's Who of the App
-Role Lead Developer for Bamazon Kala Elam
-Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)
+    - Role Lead Developer for Bamazon Kala Elam
+    - Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)
 
 ## Acknowledgements
-Tutor and TA's help 
-Some code was borrowed from class activties
+    - Tutor and TA's help 
+    - Some code was borrowed from class activties
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
