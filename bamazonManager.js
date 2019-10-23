@@ -166,10 +166,12 @@ function newIsBetter() {
           if (err) throw err;
           console.log("You have added a new product!");
           // re-prompt the manager to start over
-          wellHelloThere();
+          showMeTheTable();
+          connection.end();
         }
-      );
-    });
+      )
+    }); 
+    
 };
 
 // This is the function that displays the table
