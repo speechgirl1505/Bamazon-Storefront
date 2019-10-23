@@ -95,11 +95,11 @@ function askMeAgain() {
         .prompt({
             name: "TryorQuit",
             type: "list",
-            message: "Would you like to [TRY AGAIN] or [Quit]?",
-            choices: ["TRY AGAIN", "QUIT"]
+            message: "Would you like to [Purchase Something Else] or [Quit]?",
+            choices: ["Purchase Something Else", "QUIT"]
         })
         .then(function (answer) {
-            if (answer.TryorQuit === "TRY AGAIN") {
+            if (answer.TryorQuit === "Purchase Something Else") {
                 order();
             }
             if (answer.TryorQuit === "QUIT") {

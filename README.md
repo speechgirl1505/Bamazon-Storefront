@@ -55,33 +55,37 @@ To follow along at home these are the steps:
 
 #### `Customer`
 
+The Customer can purchase items by their id. If there is enough in stock they will be given a total cost of all items. If there is not enough stock they will be alerted there is not enough in stock and asked if they would like to purchase something else.
+
 Customer Functions:
+
 - What is the Id of the item you would you like to purchase:
-
+<img src="cus1.png"/>
 - How many would you like to buy:
-
-<img src=""/>
+<img src="cus2.png"/>
+- Low Stock
+<img src="cus3.png"/>
 
 #### `Manager`
 
 Manager Functions:
 - What are we doing today boss:
-
+<img src="man1.png"/>
     - View Products for Sale:
-        
+    <img src="man2.png"/>
     - View Low Inventory: 
-    
+    <img src="man3.png"/>
     - Add to Inventory:
         - What is the Id of the item you would you like to restock:
         - How many would you like to add:
-
+        <img src="man4.png"/>
     - Add New Products:
         - What is the item you would like to add
         - Into what category will the new item to be placed
         - How much does this item cost
         - How many of this item would you like to stock
+        <img src="man5.png"/>
 
-<img src=""/>
 
 #### `Supervisor`
 
