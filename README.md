@@ -68,6 +68,8 @@ Customer Functions:
 
 #### `Manager`
 
+The manager can view all inventory, view low inventory that has less than 5 items, add to inventory, or add new items to inventory.
+
 Manager Functions:
 - What are we doing today boss:
 <img src="man1.png"/>
@@ -93,7 +95,7 @@ To Be Displayed later when I figure it out:
 
 ## Who's Who of the App
 
-- Role Lead Developer for Bamazon Kala Elam
+- Role Lead Developer for Bamazon: Kala Elam
 - Project Link: [Github Link](https://github.com/speechgirl1505/Bamazon-Storefront)
 
 ## Acknowledgements
